@@ -1,2 +1,7 @@
 # student-complaint-management-system
-Python + MySQL based mini project
+This is a console-based mini project developed using Python and MySQL.
+Features:
+- Add student complaints
+- View complaints
+- Update and delete records
+- Database connectivity using mysql.connector
