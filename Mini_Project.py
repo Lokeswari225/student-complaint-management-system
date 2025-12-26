@@ -58,7 +58,7 @@ def view_All_complaints():
             print("-"*40)
 
 
-#we can update the complaint staus
+#we can update the complaint status
 def update_complaint_status():
     conn=getConnection()
     mycursor=conn.cursor()
@@ -128,5 +128,6 @@ def main_menu():
         else:
             print("invalid choice.Please try again")
 main_menu()
+
 
 
